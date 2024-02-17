@@ -1,0 +1,2 @@
+qmk compile -kb ergodox_ez -km MoitzB
+teensy_loader_cli --mcu=atmega32u4 -w ergodox_ez_base_MoitzB.hex

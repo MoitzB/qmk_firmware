@@ -24,7 +24,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Select hand configuration */
 
+#define USE_I2C
 #define MASTER_LEFT
+#define SPLIT_USB_DETECT
+
+
 
 #define TAPPING_TOGGLE 2
 // #define MASTER_RIGHT
